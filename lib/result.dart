@@ -26,14 +26,14 @@ class ResultScreen extends StatelessWidget {
             Navigator.pushNamed(context, '/third');
           },
         ),
-        const Text('Home'),
+        const Text('Previous'),
         IconButton(
           icon: const Icon(Icons.home),
           onPressed: () {
             Navigator.pushNamed(context, '/');
           },
         ),
-        const Text('Next')
+        const Text('Home')
       ],
     );
 
